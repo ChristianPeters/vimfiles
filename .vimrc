@@ -17,6 +17,12 @@ set shiftwidth=2
 set expandtab
 set list listchars=tab:\ \ ,trail:·
 
+" Searching
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
 " Shortcuts for switching windows
 map <C-h> <C-w>h
 map <C-j> <C-w>j
