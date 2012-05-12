@@ -2,3 +2,5 @@
 if has("autocmd")
   autocmd bufwritepost .vimrc source ~/.vimrc
 endif
+
+colorscheme crispy
