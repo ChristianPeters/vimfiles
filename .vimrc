@@ -6,3 +6,5 @@ endif
 set nocompatible      "Do not be compatible with Vi - be iMproved
 
 colorscheme crispy
+
+set number            " Enable line numbers
