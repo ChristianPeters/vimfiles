@@ -8,3 +8,4 @@ set nocompatible      "Do not be compatible with Vi - be iMproved
 colorscheme crispy
 
 set number            " Enable line numbers
+set ruler             " Enable the bar that shows you in which position your cursor is within the file
