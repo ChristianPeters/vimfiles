@@ -23,6 +23,10 @@ set incsearch
 set ignorecase
 set smartcase
 
+" Turn off backups (Vim's *.swp files)
+set nobackup
+set nowritebackup
+
 " Shortcuts for switching windows
 map <C-h> <C-w>h
 map <C-j> <C-w>j
