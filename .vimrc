@@ -34,3 +34,6 @@ map <C-k> <C-w>k
 map <C-l> <C-w>l
 
 source ~/.vim/Vundlefile
+
+" Plugin settings
+let g:CommandTMaxFiles=25000
