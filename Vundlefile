@@ -8,6 +8,7 @@ Bundle 'gmarik/vundle'
 
 Bundle 'git://git.wincent.com/command-t.git'
 Bundle 'vim-scripts/tComment'
+Bundle 'mileszs/ack.vim'
 
 filetype plugin indent on      " required!
 "
