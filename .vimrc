@@ -37,3 +37,4 @@ source ~/.vim/Vundlefile
 
 " Plugin settings
 let g:CommandTMaxFiles=25000
+let g:vundle_default_git_proto = 'git'
