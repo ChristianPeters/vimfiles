@@ -12,6 +12,7 @@ Bundle 'mileszs/ack.vim'
 Bundle 'ervandew/supertab'
 Bundle 'vim-scripts/ZoomWin'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'airblade/vim-gitgutter'
 
 filetype plugin indent on      " required!
 "
