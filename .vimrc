@@ -45,3 +45,5 @@ source ~/.vim/Vundlefile
 let g:CommandTMaxFiles=25000
 let g:CommandTMaxHeight=5
 let g:vundle_default_git_proto = 'git'
+
+map <Leader>z :ZoomWin<CR>
