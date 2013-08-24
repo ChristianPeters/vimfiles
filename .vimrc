@@ -30,6 +30,9 @@ set smartcase
 set nobackup
 set nowritebackup
 
+" Avoid evil non-breaking whitespace
+imap <A-Space> <Space>
+
 " Shortcuts for switching windows
 map <C-h> <C-w>h
 map <C-j> <C-w>j
