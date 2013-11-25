@@ -14,6 +14,7 @@ Bundle 'vim-scripts/ZoomWin'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-bundler'
 
 filetype plugin indent on      " required!
 "
