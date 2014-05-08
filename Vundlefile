@@ -14,6 +14,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-bundler'
 Bundle 'rking/ag.vim'
+Bundle 'tpope/vim-rails'
 
 filetype plugin indent on      " required!
 "
