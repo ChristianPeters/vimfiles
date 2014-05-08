@@ -8,12 +8,12 @@ Bundle 'gmarik/vundle'
 
 Bundle 'git://git.wincent.com/command-t.git'
 Bundle 'vim-scripts/tComment'
-Bundle 'mileszs/ack.vim'
 Bundle 'ervandew/supertab'
 Bundle 'vim-scripts/ZoomWin'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-bundler'
+Bundle 'rking/ag.vim'
 
 filetype plugin indent on      " required!
 "

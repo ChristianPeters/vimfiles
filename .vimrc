@@ -46,4 +46,7 @@ let g:CommandTMaxFiles=25000
 let g:CommandTMaxHeight=5
 let g:vundle_default_git_proto = 'git'
 
+let g:ackprg = 'ag --nogroup --nocolor --column' " in case of ack.vim
+let g:agprg = 'ag --nogroup --nocolor --column'
+
 map <Leader>z :ZoomWin<CR>
