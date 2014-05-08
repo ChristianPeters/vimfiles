@@ -39,6 +39,8 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+set wildignore+=.git,tmp,coverage,*.swo,*.swp
+
 source ~/.vim/Vundlefile
 
 " Plugin settings
