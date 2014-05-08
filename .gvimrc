@@ -7,6 +7,8 @@ set guioptions=c       " Reset GUI options, use console dialogs instead of popup
 set guioptions-=aA     " Turn off autoselect
 set guioptions+=e      " Use nice-looking tabs
 
+noremap <silent> <Leader>a :call ToggleFlag("guioptions","aA")<BAR>set guioptions?<CR>
+
 set guifont=Monaco:h13
 
 "Shortcuts for switching tabs

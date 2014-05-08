@@ -50,3 +50,13 @@ let g:ackprg = 'ag --nogroup --nocolor --column' " in case of ack.vim
 let g:agprg = 'ag --nogroup --nocolor --column'
 
 map <Leader>z :ZoomWin<CR>
+
+" Helper functions
+function ToggleFlag(option,flag)
+  exec ('let tf_o = &'.a:option)
+  exec ('setlocal '.a:option.'-='.a:flag)
+  exec ('let tf_t = &'.a:option)
+  if (tf_o == tf_t)
+    exec ('setlocal '.a:option.'+='.a:flag)
+  endif
+endfunction
